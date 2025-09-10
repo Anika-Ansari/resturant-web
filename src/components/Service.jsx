@@ -6,23 +6,22 @@ function Service() {
     return (
         <div>
             <div
-                className="flex flex-col md:flex-row  items-center justify-center container mx-auto p-14 md:px-20 lg:px-32 w-full bg-black text-white overflow-hidden"
+                className="flex flex-col lg:flex-row items-center justify-center container mx-auto p-6 sm:p-10 md:px-20 lg:px-32 w-full bg-black text-white overflow-hidden"
                 id="Service"
             >
                 {/* Left Side Image */}
-                <div className="flex-1 flex-col justify-center gap-5 lg:flex-row">
+                <div className="flex-1 flex flex-col lg:flex-row gap-5 w-full">
                     <img
                         src={ser_1}
                         alt=""
-                        className="order-1 w-full sm:w-[700px] sm:gap-2 lg:w-[650px] h-[250px] sm:h-[300px] lg:h-[350px] md:w-[700px] md:h-[350px] object-cover rounded-2xl"
+                        className="w-full sm:w-full lg:w-[650px] h-[250px] sm:h-[300px] lg:h-[350px] object-cover rounded-2xl"
                     />
                     <img
                         src={ser_2}
-                        alt=''
-                        className="order-2 flex flex-col lg:flex-col w-full sm:w-1/2 lg:w-[650px] h-[250px] sm:h-[300px] lg:h-[350px] md:w-[700px] md:h-[350px] object-cover rounded-2xl"
+                        alt=""
+                        className="w-full sm:w-full lg:w-[650px] h-[250px] sm:h-[300px] lg:h-[350px] object-cover rounded-2xl"
                     />
                 </div>
-
                 {/* Right Side Text */}
                 <div className="flex-1 mt-10 md:mt-0 md:ml-10 text-center md:text-left">
                     <h2 className="text-orange-500 text-2xl sm:text-4xl font-bold mb-2">
